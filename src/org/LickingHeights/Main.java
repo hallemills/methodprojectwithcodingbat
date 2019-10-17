@@ -4,17 +4,28 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        printGrettings();
+
+        printGrettings("World");
+        printGrettings("Friends");
+        printGrettings("People");
+        printGrettings("Universe");
+
+        int a = 9;
+        int b = 3;
+        System.out.println(a+b);
+        int c = a+b;
+        int d = a + c;
+
+
+
 
 
 
     }
 
 
-    public static void printGrettings(){
-        System.out.println("Hello World");
-        System.out.println("Hello Friends");
-        System.out.println("Hello Universe");
-        System.out.println("Hello Stars");
+    public static void printGrettings(String noun){
+        System.out.println("Hello " +noun);
+
     }
 }
